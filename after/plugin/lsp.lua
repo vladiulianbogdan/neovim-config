@@ -37,6 +37,7 @@ cmp.setup({
     sources = {
         {name = 'nvim_lsp'},
         {name = 'luasnip'},
+        {name = 'nvim_lsp_signature_help'}
     },
     mapping = {
         ['<C-f>'] = cmp_action.luasnip_jump_forward(),

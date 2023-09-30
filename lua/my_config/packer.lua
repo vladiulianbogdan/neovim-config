@@ -17,6 +17,7 @@ return require('packer').startup(function(use)
 	use { 'williamboman/mason.nvim',
 	'williamboman/mason-lspconfig.nvim',
 	'neovim/nvim-lspconfig'}
+    use { 'hrsh7th/cmp-nvim-lsp-signature-help' }
     use "rafamadriz/friendly-snippets"
 	use {
 		'VonHeikemen/lsp-zero.nvim',
